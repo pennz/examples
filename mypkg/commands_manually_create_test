@@ -1,0 +1,4 @@
+conan new Hello/0.2
+conan create . demo/testing
+# conan export . demo/testing
+# conan install Hello/0.2@demo/testing --build=Hello
